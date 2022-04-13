@@ -1,0 +1,6 @@
+v = input()
+v1 = v.replace('.', ' ')
+v1 = v1.split()
+n1 = int(v1[1])
+n2 = int(v1[0])
+print('{}.{}'.format(n1,n2))
